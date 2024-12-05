@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //@SpringBootTest
-class ApplicationTests {
+class OldApplicationTests {
 
     @Test
     void contextLoads() {
