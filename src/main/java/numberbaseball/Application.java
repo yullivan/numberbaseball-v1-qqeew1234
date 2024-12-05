@@ -11,9 +11,9 @@ public class Application {
         System.out.println("1부터 9까지의 서로 다른 숫자 3개를 맞춰보세요.");
 
         boolean isCorrect = false;
-        int aa1 = 1;
-        int aa2 = 2;
-        int aa3 = 3;
+        int computerNumber1 = 1;
+        int computerNumber2 = 2;
+        int computerNumber3 = 3;
 
 
         while (!isCorrect) {
@@ -27,13 +27,13 @@ public class Application {
             int strike = 0;
 
             // TODO: strike 개수를 계산하세요
-            if (aa1==user1){
+            if (computerNumber1==user1){
                 strike = strike + 1;
             }
-            if (aa2==user2){
+            if (computerNumber2==user2){
                 strike = strike + 1;
             }
-            if (aa3==user3){
+            if (computerNumber3==user3){
                 strike = strike + 1;
             }
 
